@@ -9,9 +9,9 @@ public class PruebaCuentaBancaria {
         System.out.println("Saldo actualizado: $" + cuenta.getSaldo());
 
         // Acceso permitido al atributo público tipoCuenta
-        System.out.println("Tipo de cuenta: " + cuenta.tipoCuenta);
+        //System.out.println("Tipo de cuenta: " + cuenta.tipoCuenta);
 
         // La siguiente línea causaría ERROR DE COMPILACIÓN porque numeroCuenta es privado:
-        // System.out.println(cuenta.numeroCuenta); // 'numeroCuenta' has private access
+        System.out.println(cuenta.numeroCuenta); // 'numeroCuenta' has private access
     }
 }
